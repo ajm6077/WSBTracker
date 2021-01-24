@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<h1>WSB Data:</h1>
+<div>
+{% for post in posts %}
+  {{ post[0] }}: {{ post[1] }}
+  <br>
+{% endfor %}
+</div>
+<div>
+  <form action="" method="post">
+    <input type="submit" name="update" value="Update">
+  </form>
+</div> 
